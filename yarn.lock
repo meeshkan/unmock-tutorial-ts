@@ -41,9 +41,9 @@
     "@types/node" "*"
 
 "@types/node@*":
-  version "11.9.4"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-11.9.4.tgz#ceb0048a546db453f6248f2d1d95e937a6f00a14"
-  integrity sha512-Zl8dGvAcEmadgs1tmSPcvwzO1YRsz38bVJQvH1RvRqSR9/5n61Q1ktcDL0ht3FXWR+ZpVmXVwN1LuH4Ax23NsA==
+  version "11.10.4"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-11.10.4.tgz#3f5fc4f0f322805f009e00ab35a2ff3d6b778e42"
+  integrity sha512-wa09itaLE8L705aXd8F80jnFpxz3Y1/KRHfKsYL2bPc0XF+wEWu8sR9n5bmeu8Ba1N9z2GRNzm/YdHcghLkLKg==
 
 "@types/node@^10.12.18":
   version "10.12.18"
@@ -620,9 +620,9 @@ cli-cursor@^2.1.0:
     restore-cursor "^2.0.0"
 
 cli-spinner@^0.2.8:
-  version "0.2.8"
-  resolved "https://registry.yarnpkg.com/cli-spinner/-/cli-spinner-0.2.8.tgz#8169d9ffae870676445e6ee4397e95a7a15bd805"
-  integrity sha512-Z4l0jljucEUsW/5GNaVYOpGgVmnB/Sq4l2vG9k7RbJYRZ97hVncP+BqRMemTZNBHZ4aYUPJPU/wl6zt/ZSqzPQ==
+  version "0.2.10"
+  resolved "https://registry.yarnpkg.com/cli-spinner/-/cli-spinner-0.2.10.tgz#f7d617a36f5c47a7bc6353c697fc9338ff782a47"
+  integrity sha512-U0sSQ+JJvSLi1pAYuJykwiA8Dsr15uHEy85iCJ6A+0DjVxivr3d+N2Wjvodeg89uP5K6TswFkKBfAD7B3YSn/Q==
 
 cli-spinners@^1.3.1:
   version "1.3.1"
@@ -719,7 +719,7 @@ combined-stream@^1.0.6, combined-stream@~1.0.6:
   dependencies:
     delayed-stream "~1.0.0"
 
-commander@^2.12.1:
+commander@^2.12.1, commander@^2.19.0:
   version "2.19.0"
   resolved "https://registry.yarnpkg.com/commander/-/commander-2.19.0.tgz#f6198aa84e5b83c46054b94ddedbfed5ee9ff12a"
   integrity sha512-6tvAOO+D6OENvRAh524Dh9jcfKTYDQAqvqezbCW82xj5X0pSrcpxtvRKHLG0yBY6SD7PSDrJaj+0AiOcKVd1Xg==
@@ -3070,9 +3070,9 @@ readable-stream@^2.0.1, readable-stream@^2.0.6, readable-stream@^2.3.6:
     util-deprecate "~1.0.1"
 
 readable-stream@^3.1.1:
-  version "3.1.1"
-  resolved "https://registry.yarnpkg.com/readable-stream/-/readable-stream-3.1.1.tgz#ed6bbc6c5ba58b090039ff18ce670515795aeb06"
-  integrity sha512-DkN66hPyqDhnIQ6Jcsvx9bFjhw214O4poMBcIMgPVpQvNy9a0e0Uhg5SqySyDKAmUlwt8LonTBz1ezOnM8pUdA==
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/readable-stream/-/readable-stream-3.2.0.tgz#de17f229864c120a9f56945756e4f32c4045245d"
+  integrity sha512-RV20kLjdmpZuTF1INEb9IA3L68Nmi+Ri7ppZqo78wj//Pn62fCoJyV9zalccNzDD/OuJpMG4f+pfMl8+L6QdGw==
   dependencies:
     inherits "^2.0.3"
     string_decoder "^1.1.1"
@@ -3782,19 +3782,21 @@ union-value@^1.0.0:
     is-extendable "^0.1.1"
     set-value "^0.4.3"
 
-unmock@^0.0.26:
-  version "0.0.26"
-  resolved "https://registry.yarnpkg.com/unmock/-/unmock-0.0.26.tgz#c74348263326ea47e83eab9f5de08f2325e1e702"
-  integrity sha512-YC1a3t4IlIKWSqZLl3KaeNnOl1XufY3URmPAKqKqESwQ65T52I6uot+GaKkPGKFUoD5RyiUBkGwFaJi3OEic7Q==
+unmock@^0.0.33:
+  version "0.0.33"
+  resolved "https://registry.yarnpkg.com/unmock/-/unmock-0.0.33.tgz#35346e952237a59ee0f0cea8c4b6da0caef39050"
+  integrity sha512-P4ktQDMLHa101V7BgG/qd8/tKLketiIeMtqoEuVxF3vGpV7cNG+73FYha+BIVyZyalAS532aq2T5sjl2ROMYJQ==
   dependencies:
     "@types/detect-node" "^2.0.0"
     "@types/ini" "^1.3.30"
     "@types/mkdirp" "^0.5.2"
     axios "^0.18.0"
     cli-spinner "^0.2.8"
+    commander "^2.19.0"
     detect-node "^2.0.4"
     follow-redirects "^1.5.9"
     ini "^1.3.5"
+    mkdirp "^0.5.1"
     node-fetch "^2.3.0"
     ora "^3.0.0"
     querystring-browser "^1.0.4"

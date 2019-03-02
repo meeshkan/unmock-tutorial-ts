@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "axios": "^0.18.0",
-    "unmock": "^0.0.26"
+    "unmock": "^0.0.33"
   },
   "scripts": {
     "test": "jest"
