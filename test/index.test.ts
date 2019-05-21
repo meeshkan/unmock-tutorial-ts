@@ -1,6 +1,6 @@
 import { getProject } from "../src/";
 
-import { unmock } from "unmock";
+import { unmock } from "unmock-node";
 
 beforeEach(async () => await unmock({
   signature: "my-secret-signature",
